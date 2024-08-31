@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(196, 177, 214);
+    
+}
+button{
+    font-family: Arial;
+}
+
+div{
+    font-family: Arial;
+}
+
+.mid-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    height: 200px;
+}
+.mid-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+.mid{
+    padding-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 7px;
+}
+.para{
+    padding-left: 20px;
+    margin-top: 2px;
+}
+.search-bar{
+    margin-top: 20px;
+}
+.search{
+    width: 380px;
+    height: 30px;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color:black;
+    border-style: solid;
+    padding-left: 20px;
+    background-color: rgb(196, 177, 214);
+}
+
+.signup{
+    width: 70px;
+    height:34px;
+    border: none;
+    border-radius: 17px;
+    background-color: rgb(82, 24, 137);
+    margin-left: -69px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    
+}
+.signup:hover{
+    background-color: rgb(98, 66, 128);
+}
