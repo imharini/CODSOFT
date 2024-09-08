@@ -1,0 +1,83 @@
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 350px  ;
+    margin-top: 50px;
+
+}
+.about-text{
+    padding-left: 80px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.domain{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+}
+.description{
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 360px;
+}
+.profile{
+    padding-right: 70px;
+}
+.profile-pic{
+    height: 250px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(123, 123, 249 , 0.15);
+    margin-top: 30px;
+}
+
+.contact-button{
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border : black , solid,1px;
+    background-color: rgb(123, 123, 249);
+    font-size: 14px;
+    cursor: pointer;
+}
+.contact-button:active{
+    opacity: 0.8;
+}
+.logo{
+    width: 25px;
+    height: 23px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.q-service{
+    margin-left: 380px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+   
+}
+.q-text{
+    font-size: 12px;
+    
+    width: 730px;
+    margin-left:300px ;
+}
+.q-text2{
+    font-size: 12px;
+    margin-bottom: 50px;
+    width: 730px;
+    margin-left:350px ;
+}
